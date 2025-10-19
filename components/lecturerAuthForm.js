@@ -33,7 +33,7 @@ function LecturerAuthForm() {
                     {...register("email")}
                     placeholder="lecturer@university.edu"
                     type="email" 
-                    className="px-4 py-2 border border-cyan-300 rounded-lg"/>
+                    className="px-4 py-2 border input-glow border-cyan-300 rounded-lg"/>
                     {errors.email && (
                     <p className="text-sm text-red-500 font-light">
                         {errors.email.message}
@@ -46,7 +46,7 @@ function LecturerAuthForm() {
                     {...register("password")}
                     placeholder="••••••••"
                     type="password" 
-                    className="px-4 py-2 border border-cyan-300 rounded-lg"/>
+                    className="px-4 py-2 border input-glow border-cyan-300 rounded-lg"/>
                     {errors.password && (
                     <p className="text-sm text-red-500 font-light">
                         {errors.password.message}

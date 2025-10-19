@@ -1,4 +1,6 @@
 @import "tailwindcss";
 
-
+.input-glow {
+  @apply focus:outline-cyan-500 focus:ring-2 focus:ring-cyan-200 focus:outline-none focus:border-2
+}
 
