@@ -10,7 +10,7 @@ function ToggleTabs({tabdata, onChange, defaultTab}) {
         if(onChange) onChange(tab)
     }
     return ( 
-        <div className="bg-cyan-300 rounded-2xl flex p-1 w-full">
+        <div className="bg-blue-200 rounded-2xl flex p-1 w-full">
             {tabdata.map((tab) => (
                 <button
                 key={tab}
