@@ -4,6 +4,7 @@ import Navbar from "@/components/navbar";
 import { useState } from "react";
 import ToggleTabs from "@/components/toggleTabs";
 import CreateAssignment from "@/components/createAssignment";
+import ViewSubmissions from "@/components/viewSubmissions";
 
 function LecturerDashboard() {
     const [tab, setTab] = useState("Create Assignment")
@@ -26,7 +27,9 @@ function LecturerDashboard() {
                             <CreateAssignment/>
                         </div>
                     ) : (
-                        <div>View Submissions tab</div>
+                        <div>
+                            <ViewSubmissions/>
+                        </div>
                     )
                     }
                 </div>
